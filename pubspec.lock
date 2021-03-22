@@ -15,15 +15,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
-  ceyfleon:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: main
-      resolved-ref: "736fe10a8ebf8fb6bec3da7d616bc1f7e40314b9"
-      url: "git@github.com:ceyleon-devs/ceyfleon.git"
-    source: git
-    version: "0.0.1"
   characters:
     dependency: transitive
     description:
@@ -77,7 +68,7 @@ packages:
     source: sdk
     version: "0.0.0"
   get:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: get
       url: "https://pub.dartlang.org"
@@ -167,4 +158,3 @@ packages:
     version: "2.1.0"
 sdks:
   dart: ">=2.12.0-0.0 <3.0.0"
-  flutter: ">=1.20.0"
